@@ -14,4 +14,4 @@ while cap.isOpened(): # 동영상 파일이 올바로 열렸는지?
         break
 
 cap.release() # 자원 해제
-cv2.destroyAllWindow() # 모든 창 닫기
+cv2.destroyAllWindow() 
