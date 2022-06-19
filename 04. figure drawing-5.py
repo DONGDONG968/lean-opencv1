@@ -16,6 +16,8 @@ THICKNESS = 3 #두께
 # 사각형을 그릴 시작점(100,100) 에서 끝점 
 cv2.rectangle(img, (100,100), (200,200), COLOR, THICKNESS) # 속이 빈 사각형
 
+cv2.rectangle(img, (300,100), (400,200), COLOR, cv2.FILLED) # 꽉 찬 사각형
+
 cv2.imshow('img',img)
 cv2.waitKey(0)
 cv2.destoryAllWindows()
