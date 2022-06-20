@@ -13,7 +13,7 @@ SCALE = 1 #크기
 COLOR = (255,255,255) #흰색
 THICKNESS = 1 #두께
 
-cv2.putText(img, "Dong Dong", (20, 50), cv2.FONT_HERSHEY_SIMPLEX, SCALE, COLOR, THICKNESS)
+cv2.putText(img, "동동", (20, 50), cv2.FONT_HERSHEY_SIMPLEX, SCALE, COLOR, THICKNESS)
 
 cv2.imshow('img', img)
 cv2.waitKey(0)
