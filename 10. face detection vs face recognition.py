@@ -25,7 +25,7 @@ with mp_face_detection.FaceDetection(
         for detection in results.detections:
           mp_drawing.draw_detection(image, detection)
       # Flip the image horizontally for a selfie-view display.
-      cv2.imshow('MediaPipe Face Detection', image)
+      cv2.imshow('MediaPipe Face Detection', cv2.resize(image, None, fx=0.5, fy=0.5))
       if cv2.waitKey(1) == ord('q'):
         break
 cap.release()
